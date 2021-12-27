@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-27T14:49:42.020Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="bh7q-3PxekKQse0XLwny" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-27T14:56:12.675Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="8JnBy3VqGPTgYV80jkVh" version="16.1.0" type="github">
   <diagram name="Page-1" id="2c4490ee-f0b8-94ab-5012-d5dc3445f7a3">
     <mxGraphModel dx="1422" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -42,8 +42,8 @@
         <mxCell id="YmKnQsC4s_xM_0t4k5QM-75" value=" QString time;    // 时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="YmKnQsC4s_xM_0t4k5QM-44">
           <mxGeometry y="286" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="YmKnQsC4s_xM_0t4k5QM-87" value="买卖信号" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="140" y="420" width="200" height="292" as="geometry" />
+        <mxCell id="YmKnQsC4s_xM_0t4k5QM-87" value="TraderSignal买卖信号" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1030" width="200" height="292" as="geometry" />
         </mxCell>
         <mxCell id="YmKnQsC4s_xM_0t4k5QM-88" value="QString gateway;//网关" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YmKnQsC4s_xM_0t4k5QM-87">
           <mxGeometry y="26" width="200" height="26" as="geometry" />
@@ -73,40 +73,49 @@
           <mxGeometry y="266" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="YmKnQsC4s_xM_0t4k5QM-97" value="策略参数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="140" y="780" width="280" height="392" as="geometry" />
+          <mxGeometry x="140" y="780" width="370" height="494" as="geometry" />
         </mxCell>
         <mxCell id="YmKnQsC4s_xM_0t4k5QM-98" value="QSting ID;//策略id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YmKnQsC4s_xM_0t4k5QM-97">
-          <mxGeometry y="26" width="280" height="26" as="geometry" />
+          <mxGeometry y="26" width="370" height="26" as="geometry" />
         </mxCell>
         <mxCell id="YmKnQsC4s_xM_0t4k5QM-102" value="QString symbol；//订阅的合约" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YmKnQsC4s_xM_0t4k5QM-97">
-          <mxGeometry y="52" width="280" height="26" as="geometry" />
+          <mxGeometry y="52" width="370" height="26" as="geometry" />
         </mxCell>
         <mxCell id="YmKnQsC4s_xM_0t4k5QM-100" value="int state;//运行状态&#xa;   0未知 1运行中 2已暂停  3报错" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YmKnQsC4s_xM_0t4k5QM-97">
-          <mxGeometry y="78" width="280" height="48" as="geometry" />
+          <mxGeometry y="78" width="370" height="48" as="geometry" />
         </mxCell>
         <mxCell id="YmKnQsC4s_xM_0t4k5QM-101" value="int  runState;//运行状态&#xa;0 未知 1初始状态 2下单中" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YmKnQsC4s_xM_0t4k5QM-97">
-          <mxGeometry y="126" width="280" height="50" as="geometry" />
+          <mxGeometry y="126" width="370" height="50" as="geometry" />
         </mxCell>
         <mxCell id="YmKnQsC4s_xM_0t4k5QM-103" value="int maxPosition；//策略最大持仓总数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YmKnQsC4s_xM_0t4k5QM-97">
-          <mxGeometry y="176" width="280" height="34" as="geometry" />
+          <mxGeometry y="176" width="370" height="34" as="geometry" />
         </mxCell>
         <mxCell id="YmKnQsC4s_xM_0t4k5QM-116" value="int position；//策略持仓总数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YmKnQsC4s_xM_0t4k5QM-97">
-          <mxGeometry y="210" width="280" height="34" as="geometry" />
+          <mxGeometry y="210" width="370" height="34" as="geometry" />
         </mxCell>
         <mxCell id="YmKnQsC4s_xM_0t4k5QM-115" value="PositionInfo[]；//持仓详情、今仓昨仓数量&#xa;数组下标对应腿数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YmKnQsC4s_xM_0t4k5QM-97">
-          <mxGeometry y="244" width="280" height="46" as="geometry" />
+          <mxGeometry y="244" width="370" height="46" as="geometry" />
         </mxCell>
         <mxCell id="YmKnQsC4s_xM_0t4k5QM-125" value="double openLimit;//开仓条件" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YmKnQsC4s_xM_0t4k5QM-97">
-          <mxGeometry y="290" width="280" height="34" as="geometry" />
+          <mxGeometry y="290" width="370" height="34" as="geometry" />
         </mxCell>
         <mxCell id="YmKnQsC4s_xM_0t4k5QM-126" value="double closeLimit;//平仓仓条件" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YmKnQsC4s_xM_0t4k5QM-97">
-          <mxGeometry y="324" width="280" height="34" as="geometry" />
+          <mxGeometry y="324" width="370" height="34" as="geometry" />
         </mxCell>
         <mxCell id="YmKnQsC4s_xM_0t4k5QM-127" value="double forceCloseLimit;//强平条件，即止损" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YmKnQsC4s_xM_0t4k5QM-97">
-          <mxGeometry y="358" width="280" height="34" as="geometry" />
+          <mxGeometry y="358" width="370" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="YmKnQsC4s_xM_0t4k5QM-128" value="ArrayList&lt;TraderSignal&gt; openAction;//策略触发要执行的动作" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YmKnQsC4s_xM_0t4k5QM-97">
+          <mxGeometry y="392" width="370" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="YmKnQsC4s_xM_0t4k5QM-134" value="ArrayList&lt;TraderSignal&gt; closeAction;//策略触发要执行的动作" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YmKnQsC4s_xM_0t4k5QM-97">
+          <mxGeometry y="426" width="370" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="YmKnQsC4s_xM_0t4k5QM-133" value="int currentIndex;//当前操作腿" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YmKnQsC4s_xM_0t4k5QM-97">
+          <mxGeometry y="460" width="370" height="34" as="geometry" />
         </mxCell>
         <mxCell id="YmKnQsC4s_xM_0t4k5QM-117" value="PositionInfo" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="500" y="700" width="190" height="104" as="geometry" />
+          <mxGeometry x="630" y="700" width="190" height="104" as="geometry" />
         </mxCell>
         <mxCell id="YmKnQsC4s_xM_0t4k5QM-118" value="int position；//持仓总数量" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YmKnQsC4s_xM_0t4k5QM-117">
           <mxGeometry y="26" width="190" height="26" as="geometry" />
@@ -118,6 +127,12 @@
           <mxGeometry y="78" width="190" height="26" as="geometry" />
         </mxCell>
         <mxCell id="YmKnQsC4s_xM_0t4k5QM-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.011;entryY=0.308;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YmKnQsC4s_xM_0t4k5QM-115" target="YmKnQsC4s_xM_0t4k5QM-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YmKnQsC4s_xM_0t4k5QM-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YmKnQsC4s_xM_0t4k5QM-128" target="YmKnQsC4s_xM_0t4k5QM-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YmKnQsC4s_xM_0t4k5QM-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.025;entryY=0.35;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YmKnQsC4s_xM_0t4k5QM-134" target="YmKnQsC4s_xM_0t4k5QM-94">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
