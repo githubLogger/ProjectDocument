@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-27T03:00:46.443Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="iwZsZUHTxuYloFMr6za_" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-27T03:10:41.658Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="9XcPwzEoTm9tefhmrorT" version="16.1.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -137,11 +137,65 @@
         <mxCell id="snW-wMUoypjl8WUmlegl-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="snW-wMUoypjl8WUmlegl-62" target="snW-wMUoypjl8WUmlegl-64">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="snW-wMUoypjl8WUmlegl-62" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-family: &amp;#34;arial&amp;#34; ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;发送信号reciveTick&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="snW-wMUoypjl8WUmlegl-62" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-family: &amp;#34;arial&amp;#34; ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;发送信号newTick&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="530" y="750" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="snW-wMUoypjl8WUmlegl-64" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="727" y="750" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="snW-wMUoypjl8WUmlegl-66" target="snW-wMUoypjl8WUmlegl-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-66" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-family: &amp;#34;arial&amp;#34; ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;行情tick处理&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="870" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="snW-wMUoypjl8WUmlegl-67" target="snW-wMUoypjl8WUmlegl-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-67" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-family: &amp;#34;arial&amp;#34; ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;触发reciveTick槽函数&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="snW-wMUoypjl8WUmlegl-71" target="snW-wMUoypjl8WUmlegl-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="snW-wMUoypjl8WUmlegl-71" target="snW-wMUoypjl8WUmlegl-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-71" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-family: &amp;#34;arial&amp;#34; ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;有相关联已订阅的聚合数据？&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="530" y="860" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="snW-wMUoypjl8WUmlegl-73" target="snW-wMUoypjl8WUmlegl-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="snW-wMUoypjl8WUmlegl-73" target="snW-wMUoypjl8WUmlegl-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-73" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-family: &amp;#34;arial&amp;#34; ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;聚合数据相关合约已有数据？&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="710" y="860" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-77" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="530" y="980" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="snW-wMUoypjl8WUmlegl-79" target="snW-wMUoypjl8WUmlegl-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-79" value="记录告警日志" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="700" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="snW-wMUoypjl8WUmlegl-82" target="snW-wMUoypjl8WUmlegl-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-82" value="根据聚合公式计算出聚合行情，并记录Tick最大延迟" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="880" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="snW-wMUoypjl8WUmlegl-84" target="snW-wMUoypjl8WUmlegl-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-84" value="发送行情信号newTick" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1080" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-86" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1260" y="870" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
