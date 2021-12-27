@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-27T02:37:07.733Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="nf9L79ZID8KTMftRfTEk" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-27T02:43:25.548Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="WcV9MF3oy_HDf7RQe226" version="16.1.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -59,6 +59,68 @@
         </mxCell>
         <mxCell id="snW-wMUoypjl8WUmlegl-29" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="640" y="240" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="snW-wMUoypjl8WUmlegl-31" target="snW-wMUoypjl8WUmlegl-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-31" value="新增聚合行情" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="140" y="430" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="snW-wMUoypjl8WUmlegl-34" target="snW-wMUoypjl8WUmlegl-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-34" value="参数是否正确" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="snW-wMUoypjl8WUmlegl-38" target="snW-wMUoypjl8WUmlegl-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="snW-wMUoypjl8WUmlegl-38" target="snW-wMUoypjl8WUmlegl-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-38" value="已订阅所有单个合约行情" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="snW-wMUoypjl8WUmlegl-40" target="snW-wMUoypjl8WUmlegl-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-40" value="订阅未订阅合约" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="470" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="snW-wMUoypjl8WUmlegl-42" target="snW-wMUoypjl8WUmlegl-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="570" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="470" y="580" />
+              <mxPoint x="470" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="snW-wMUoypjl8WUmlegl-42" target="snW-wMUoypjl8WUmlegl-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="324" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-42" value="订阅成功" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="580" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-51" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="220" y="590" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="snW-wMUoypjl8WUmlegl-53" target="snW-wMUoypjl8WUmlegl-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-53" value="写入已订阅聚合行情列表" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="630" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="snW-wMUoypjl8WUmlegl-55" target="snW-wMUoypjl8WUmlegl-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-55" value="写入已订阅聚合行情配置文件" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="830" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="snW-wMUoypjl8WUmlegl-57" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1010" y="430" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
