@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-10-31T01:18:21.444Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="WVHe1UpuflavXUZE5ZR7" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-31T14:49:35.050Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="_7TvrTKbJRpzojkb1FgA" version="20.5.1" type="github">
   <diagram id="gzcLncfyu2RjhO8Vb5th" name="第 1 页">
-    <mxGraphModel dx="1863" dy="541" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1863" dy="543" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="FOe87Svn7Ragx-8BAH7n-5" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="A8RhbO1rcjVdho5e5Z4h-17" target="A8RhbO1rcjVdho5e5Z4h-22">
+        <mxCell id="FOe87Svn7Ragx-8BAH7n-5" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="A8RhbO1rcjVdho5e5Z4h-17" target="A8RhbO1rcjVdho5e5Z4h-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="A8RhbO1rcjVdho5e5Z4h-17" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;MarketData&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field1: Type&lt;br&gt;+ field2: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ subscribe&amp;nbsp;(Type): Type&lt;br&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;hachureGap=4;" parent="1" vertex="1">
@@ -16,7 +16,7 @@
         <mxCell id="A8RhbO1rcjVdho5e5Z4h-19" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;...MarketData&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;hachureGap=4;" parent="1" vertex="1">
           <mxGeometry x="-555" y="205" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="FOe87Svn7Ragx-8BAH7n-3" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="A8RhbO1rcjVdho5e5Z4h-22" target="FOe87Svn7Ragx-8BAH7n-1">
+        <mxCell id="FOe87Svn7Ragx-8BAH7n-3" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="A8RhbO1rcjVdho5e5Z4h-22" target="FOe87Svn7Ragx-8BAH7n-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="A8RhbO1rcjVdho5e5Z4h-22" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;DataCenter&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;hachureGap=4;" parent="1" vertex="1">
@@ -55,17 +55,47 @@
             <mxPoint x="-310" y="486.19879518072275" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FOe87Svn7Ragx-8BAH7n-4" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="FOe87Svn7Ragx-8BAH7n-1" target="FOe87Svn7Ragx-8BAH7n-2">
+        <mxCell id="FOe87Svn7Ragx-8BAH7n-4" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="FOe87Svn7Ragx-8BAH7n-1" target="FOe87Svn7Ragx-8BAH7n-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FOe87Svn7Ragx-8BAH7n-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;StrategyCenter&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;hachureGap=4;" vertex="1" parent="1">
+        <mxCell id="FOe87Svn7Ragx-8BAH7n-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;StrategyCenter&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;hachureGap=4;" parent="1" vertex="1">
           <mxGeometry x="85" y="303" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="FOe87Svn7Ragx-8BAH7n-6" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="FOe87Svn7Ragx-8BAH7n-2" target="A8RhbO1rcjVdho5e5Z4h-23">
+        <mxCell id="FOe87Svn7Ragx-8BAH7n-6" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="FOe87Svn7Ragx-8BAH7n-2" target="A8RhbO1rcjVdho5e5Z4h-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FOe87Svn7Ragx-8BAH7n-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Trader&lt;span style=&quot;background-color: initial;&quot;&gt;Center&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;hachureGap=4;" vertex="1" parent="1">
+        <mxCell id="FOe87Svn7Ragx-8BAH7n-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Trader&lt;span style=&quot;background-color: initial;&quot;&gt;Center&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;hachureGap=4;" parent="1" vertex="1">
           <mxGeometry x="85" y="463.5" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XSOajKytcmtorwOCktQQ-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;ClosingStrategy&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field1: Type&lt;br&gt;+ field2: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ resolveOperation: OffsetFlagEnum&lt;br&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-195" y="812" width="213" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="XSOajKytcmtorwOCktQQ-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;background-color: initial;&quot;&gt;FirstInFirstOutClosingStrategy&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field1: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ resolveOperation: OffsetFlagEnum&lt;br&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-603" y="674" width="233" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="XSOajKytcmtorwOCktQQ-7" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="XSOajKytcmtorwOCktQQ-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-390" y="747.24" as="sourcePoint" />
+            <mxPoint x="-272" y="712.0001809954751" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XSOajKytcmtorwOCktQQ-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;background-color: initial;&quot;&gt;PriorBeforeAndHedgeToday&lt;/i&gt;&lt;i style=&quot;background-color: initial;&quot;&gt;ClosingStrategy&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field1: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ resolveOperation: OffsetFlagEnum&lt;br&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-635" y="827" width="265" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="XSOajKytcmtorwOCktQQ-10" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XSOajKytcmtorwOCktQQ-9" target="XSOajKytcmtorwOCktQQ-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-380" y="757.24" as="sourcePoint" />
+            <mxPoint x="-247" y="735" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XSOajKytcmtorwOCktQQ-11" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;background-color: initial;&quot;&gt;PriorTodayStrategy&lt;/i&gt;&lt;i style=&quot;background-color: initial;&quot;&gt;ClosingStrategy&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field1: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ resolveOperation: OffsetFlagEnum&lt;br&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-632" y="952" width="265" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="XSOajKytcmtorwOCktQQ-12" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XSOajKytcmtorwOCktQQ-11" target="XSOajKytcmtorwOCktQQ-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-360" y="889" as="sourcePoint" />
+            <mxPoint x="-235" y="883" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
